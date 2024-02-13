@@ -1,0 +1,53 @@
+.user{
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.user__name{
+    text-align: center;
+    margin: 15px 0;
+}
+.user hr{
+    border: 1px solid rgba(128, 128, 128, 0.336);
+    width: 85%;
+    margin: 0 auto;
+}
+.user__list{
+    padding: 10px;
+}
+.user_item{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.user_item span:first-child {
+    color: #beced1ce;
+}
+.user__btns{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.user__btns button{
+    margin-left: 10px;
+}
+.user__btndelete{
+    background-color: #D85D5D;
+    border: none;
+    border-radius: 5px;
+    width: 30px;
+}
+.user__btndelete ion-icon{
+    color: white;
+    font-size: 22px;
+}
+.user__btnEdit{
+    border: 1px solid rgba(128, 128, 128, 0.336);
+    border-radius: 5px;
+    width: 30px;
+}
+.user__btnEdit ion-icon{
+    color: white;
+    font-size: 22px;
+}
