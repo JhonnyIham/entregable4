@@ -1,9 +1,11 @@
 import './styles/cardUser.css'
 
-const CardUser = ({user, deleteUsers, setEditUser, setIsOpen}) => {
+const CardUser = ({user, deleteUsers, setEditUser, setIsOpen, setDeleteIsOpen, setDeleteUser }) => {
 
     const handleDelete = () => {
         deleteUsers('/users', user.id)
+        setDeleteUser(user)
+        setDeleteIsOpen(true)
     }
 
     const handleEdit = () => {
